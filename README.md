@@ -22,3 +22,19 @@ Tests are written with `pytest`. Install the requirements above and run:
 ```bash
 pytest
 ```
+
+
+## Frontend
+
+The `frontend` directory contains a very small React UI. You can serve it locally
+with a simple static server:
+
+```bash
+cd frontend
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000` in your browser. The UI will communicate with
+the running Flask backend on the same host.
+=======
+
