@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from .models import db, TeamMember, Project, Allocation
+from models import db, TeamMember, Project, Allocation
 
 
 def create_app():
