@@ -23,10 +23,12 @@ Tests are written with `pytest`. Install the requirements above and run:
 pytest
 ```
 
+
 ## Frontend
 
 The `frontend` directory contains a React UI styled with the Flatly Bootswatch theme (Bootstrap).
 You can serve it locally with a simple static server:
+
 
 ```bash
 cd frontend
@@ -35,3 +37,4 @@ python -m http.server 8000
 
 Then open `http://localhost:8000` in your browser. The UI will communicate with
 the running Flask backend on the same host.
+

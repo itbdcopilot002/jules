@@ -34,6 +34,7 @@ function App() {
   };
 
   return (
+
     <div className="container my-4">
       <h1 className="mb-4">Resource Management Portal</h1>
       <div className="row mb-5">
@@ -64,6 +65,7 @@ function App() {
           </ul>
         </div>
       </div>
+
     </div>
   );
 }
